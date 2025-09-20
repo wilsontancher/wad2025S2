@@ -1,2 +1,20 @@
-# nodeTemplate
-This repository includes gitignore file which will not commit certain files or folders (especially node_modules folder) for a node.js project into the repository. **Please do not remove the .gitignore file as it will help to minimize the size of the project in the repository. You are free to amend this readme file for your own project.**
+# wad2025S2 Possible/Suggested Solutions
+Solutions to selected labs will be uploaded here for your study and reference.
+
+## Download modules and run your node.js codes
+The solutions will not come with the [node_modules] folder. 
+Please go to commandline, go to the directory where the codes are downloaded, perform an npm install on your command-line/powershell.
+For example, if your code directory is c:\mycodes\lab2, and your running js file is app.js, enter:
+```
+cd c:\mycodes\lab2
+npm install
+node app.js or node server.js, depending on your running js file
+```
+if your drive is not C drive (e.g. d: drive), you need an extra statement before your cd command:
+```
+d:
+cd d:\mycodes\lab2
+npm install
+node app.js  or node server.js, depending on your running js file
+```
+
